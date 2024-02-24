@@ -7,15 +7,12 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
-import Banner from '../components/banner';
 
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
-      {/* <Img/> */}
-      {/* <Banner/> */}
       <div className="flex flex-col items-center max-w-5xl w-full mx-auto">
         <main className="w-full">
           <h1 className="text-3xl lg:text-3xl text-center mb-12">
