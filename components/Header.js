@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header({ name }) {
   return (
-    <div class="flex flex-2  hover:inline-flex">
+    <div className="flex flex-2  hover:inline-flex">
       <header className="pt-20 pl-20  content-start">
         {/* <div className="w-12 h-12 rounded-full block mx-auto mb-4 bg-gradient-conic from-gradient-3 to-gradient-4" /> */}
         <p className="text-3xl lg:text-5xl text-center mb-12">
